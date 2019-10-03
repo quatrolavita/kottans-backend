@@ -1,9 +1,9 @@
-# Hello there 
+## Unix Shell
 
-Hi, my name is Sasha. I am 21 years old.
+![screenshot](task_unix_shell/unix_shell.png)
 
-I  have finished the git basic course
+Now i use latest version of Linux distribution ``Manjaro Xfce`` in my VM machine. I need it for some special software, for my education in the university. 
 
-Have a nice day:)
+Today i know all advantages and disadvantages of UNIX-like OS.
 
-![alt text](https://i.pinimg.com/originals/25/4b/d1/254bd14398738a76abba2c8c0837da4e.jpg)
+In the future i will use UNIX-like OS for solve my tasks.
