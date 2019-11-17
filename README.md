@@ -89,3 +89,12 @@ Heap ```013e1000-01522000```, Stack ```7ffe6d7b5000-7ffe6d7d6000```, MMS ```7fee
 Until that moment, I thought that my programs linked to real address in memory, now I know that it is was wrong. 
 
 P.S. Good articles, I think that people who did not know how the memory works, after reading, will  understand the material.
+
+## TCP. UDP. Network
+
+![screenshot](task_networks/101.png)
+
+
+![screenshot](task_networks/udacity.png)
+
+In general this information wasn't new for me. For my opinion, this material is great for beginner, because necessary information on this topic has been collected in one place.

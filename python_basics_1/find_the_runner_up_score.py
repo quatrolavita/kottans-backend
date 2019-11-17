@@ -1,6 +1,7 @@
 # Nested Lists
 # link for this task: https://www.hackerrank.com/challenges/nested-list/problem?h_r=profile
-
+def(8
+    )
 
 if __name__ == '__main__':
     classroom = []
@@ -28,7 +29,6 @@ if __name__ == '__main__':
             min_mark = i[1]
 
     classroom.sort()
-
     for i in classroom:
         if i[1] == min_mark:
             print(i[0])
