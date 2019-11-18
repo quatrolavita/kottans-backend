@@ -98,3 +98,41 @@ P.S. Good articles, I think that people who did not know how the memory works, a
 ![screenshot](task_networks/udacity.png)
 
 In general this information wasn't new for me. For my opinion, this material is great for beginner, because necessary information on this topic has been collected in one place.
+
+## Http & Https
+
+```curl https://api.github.com/users/sashalavrus``` 
+
+```curl  -i https://api.github.com/users/sashalavrus```
+
+```curl  https://api.github.com/gists/starred```
+
+```curl --user "sashalavrus:******" https://api.github.com/gists/starred```
+
+```curl --user "sashalavrus" https://api.github.com/gists/starred```
+
+```curl -i https://api.github.com/orgs/kottans/repos```
+
+```curl -H "Authorization: token ******" https://api.github.com/repos/sashalavrus/kottans-backend/issues -d "{\"title\":\"My title\",\"body\":\"Some text body\",\"labels\":[\"design\"]}"```
+
+1. First of all your personal data will stolen. 
+
+   Finance operation (internet banking)  become impossible.
+
+   When you connect to the server, you never known, is it original server, or it is fake.
+
+2. Idea of asymetric encryption consist of public and private key. With public key, anyone can encrypt message, file etc. But only private key can decrypt this message. Private key and public key are mathematically related. If you have public key, you can not generate private kay. SSL is totaly safe.
+	
+3. 
+
+   ```POST (Name=pet_name, age=pet_age, breed=pet_breed, owner_name=pet_owner_name, megical_history = "/home/usr/.../file.txt", doctor=Null) Staus code 204
+   
+   GET (Name=pet_name) Status code 200
+	
+   PUT (Name=pet_name) Status code 200 or 204
+
+   PUT(medical_history="/home/usr/.../file.txt") Status code 200 or 204
+
+   PUT(doctor=doctor_name) Status code 200 or 204
+
+   POST(Name=pet_name, doctor=doctor_name, time_appointment=time_date) Status code 200```
