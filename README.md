@@ -135,4 +135,4 @@ In general this information wasn't new for me. For my opinion, this material is 
 
    PUT(doctor=doctor_name) Status code 200 or 204
 
-   POST(Name=pet_name, doctor=doctor_name, time_appointment=time_date) Status code 200```
+   POST(Name=pet_name, doctor=doctor_name, time_appointment=time_date) Status code 200
